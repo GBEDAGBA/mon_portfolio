@@ -1,0 +1,5 @@
+{
+  "ignore": ["db/*", "db/**/*"],
+  "watch": ["*.js", "routes/*.js", "controllers/*.js", "services/*.js"],
+  "ext": "js"
+}

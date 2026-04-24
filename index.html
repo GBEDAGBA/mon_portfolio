@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Christiane GBEDAGBA — Étudiante développeuse passionnée par C, C++, Java, HTML et CSS. En apprentissage des frameworks modernes."/>
+  <title>Christiane GBEDAGBA — Développeuse Junior</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,600;0,900;1,300;1,600&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════
+       NAVIGATION
+  ══════════════════════════════════════ -->
+  <nav id="navbar">
+    <a href="#hero" class="nav-logo">G<span>.</span>GBEDAGBA</a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#apropos">À propos</a></li>
+      <li><a href="#competences">Compétences</a></li>
+      <li><a href="#projets">Projets</a></li>
+      <li><a href="#parcours">Parcours</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="nav-right">
+      <a href="#contact" class="nav-cta">Me contacter</a>
+      <button class="nav-burger" id="navBurger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ══════════════════════════════════════
+       HERO
+  ══════════════════════════════════════ -->
+  <section id="hero">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+
+    <div class="hero-inner">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="badge-pulse"></span>
+          Disponible · Stage &amp; Alternance
+        </div>
+
+        <h1>
+          <span class="h1-small">Bonjour, je suis</span>
+          <span class="h1-name">Christiane <br>GBEDAGBA</span>
+          <span class="h1-role">Développeuse <em>Junior</em></span>
+        </h1>
+
+        <p class="hero-sub">
+          Étudiante passionnée par le code, je construis mes bases en
+          <strong>C, C++, Java, HTML &amp; CSS</strong>. Chaque jour est
+          une nouvelle occasion d'apprendre et de progresser.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projets" class="btn-primary">
+            <span>Voir mes projets</span>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="https://github.com/GBEDAGBA" class="btn-ghost" target="_blank" rel="noopener">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            GitHub
+          </a>
+        </div>
+
+        <div class="hero-langs">
+          <span class="lang-chip">C</span>
+          <span class="lang-chip">C++</span>
+          <span class="lang-chip">Java</span>
+          <span class="lang-chip">HTML</span>
+          <span class="lang-chip">CSS</span>
+          <span class="lang-chip learning">React ↗</span>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="code-window">
+          <div class="window-bar">
+            <div class="window-dots">
+              <span class="wd red"></span>
+              <span class="wd yellow"></span>
+              <span class="wd green"></span>
+            </div>
+            <span class="window-title">Christiane .java</span>
+          </div>
+          <pre class="code-body"><span class="ck">public class</span> <span class="cf">Christiane </span> <span class="cp">extends</span> <span class="cf">Developer</span> {
+
+  <span class="ck">private</span> <span class="ct">String</span> statut    = <span class="cs">"En apprentissage"</span>;
+  <span class="ck">private</span> <span class="ct">boolean</span> curieux  = <span class="cv">true</span>;
+  <span class="ck">private</span> <span class="ct">boolean</span> persevere = <span class="cv">true</span>;
+
+  <span class="ck">String[]</span> langages = {
+    <span class="cs">"C"</span>, <span class="cs">"C++"</span>, <span class="cs">"Java"</span>,
+    <span class="cs">"HTML"</span>, <span class="cs">"CSS"</span>
+  };
+
+  <span class="cm">// En cours d'apprentissage...</span>
+  <span class="ck">String[]</span> frameworks = { <span class="cs">"React"</span>, <span class="cs">"JS"</span> };
+
+  <span class="ck">void</span> <span class="cf">objectif</span>() {
+    <span class="cm">// Devenir développeuse full-stack 🚀</span>
+    <span class="cv">System</span>.out.println(<span class="cs">"Let's build!"</span>);
+  }
+}</pre>
+
+    <a href="#apropos" class="hero-scroll">
+      <span>Découvrir</span>
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 3v10M4 9l4 4 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       À PROPOS
+  ══════════════════════════════════════ -->
+  <section id="apropos">
+    <div class="container">
+      <div class="apropos-grid">
+
+        <div class="apropos-text reveal">
+          <p class="section-label">À propos de moi</p>
+          <h2 class="section-title">Une développeuse <em>en construction</em></h2>
+          <p class="apropos-desc">
+            Je m'appelle Christiane , étudiante en informatique avec une vraie passion pour
+            la programmation. J'ai démarré par les langages système — <strong>C et C++</strong> —
+            puis découvert la programmation orientée objet avec <strong>Java</strong>,
+            et le web avec <strong>HTML &amp; CSS</strong>.
+          </p>
+          <p class="apropos-desc">
+            Je n'ai pas encore de projets clients, et je le dis clairement. Ce qui me
+            distingue, c'est ma <strong>rigueur</strong>, ma <strong>curiosité</strong>
+            et ma capacité à apprendre vite. Chaque exercice sur GitHub est une
+            preuve de ma progression concrète.
+          </p>
+
+        </div>
+
+        <div class="apropos-side reveal">
+          <div class="apropos-card">
+            <div class="ac-header">
+              <div class="ac-avatar">CG</div>
+              <div>
+                <div class="ac-name">Christiane GBEDAGBA</div>
+                <div class="ac-title">Développeuse</div>
+              </div>
+            </div>
+            <hr class="ac-divider"/>
+            <div class="ac-items">
+              <div class="ac-item">
+                <span class="ac-label">Statut</span>
+                <span class="ac-value badge-green">Disponible</span>
+              </div>
+              <div class="ac-item">
+                <span class="ac-label">Recherche</span>
+                <span class="ac-value">Stage / Alternance</span>
+              </div>
+              <div class="ac-item">
+                <span class="ac-label">GitHub</span>
+                <a href="https://github.com/GBEDAGBA" class="ac-value ac-link" target="_blank">@GBEDAGBA</a>
+              </div>
+              <div class="ac-item">
+                <span class="ac-label">Langages</span>
+                <span class="ac-value">C, C++, Java, HTML/CSS</span>
+              </div>
+            </div>
+            <a href="#contact" class="ac-btn">Prendre contact →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       COMPÉTENCES
+  ══════════════════════════════════════ -->
+  <section id="competences" class="section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Mes compétences</p>
+        <h2 class="section-title">Ce que je <em>sais faire</em></h2>
+        <p class="section-desc">
+          Un niveau honnête — les barres reflètent ma progression réelle, pas ce que je voudrais afficher.
+        </p>
+      </div>
+
+      <div class="skills-layout">
+
+        <!-- Colonne gauche : langages + outils -->
+        <div class="skills-col">
+          <div class="skill-block reveal">
+            <div class="sb-header">
+              <span class="sb-icon">💻</span>
+              <h3>Langages de programmation</h3>
+            </div>
+            <div class="skill-list">
+              <div class="skill-row">
+                <div class="sr-top">
+                  <span class="sr-name">HTML / CSS</span>
+                  <span class="sr-badge">Bases solides</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-fill" style="--w:65%">
+                    <span class="sf-label">65%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="skill-row">
+                <div class="sr-top">
+                  <span class="sr-name">Java</span>
+                  <span class="sr-badge">Notions acquises</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-fill" style="--w:50%">
+                    <span class="sf-label">50%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="skill-row">
+                <div class="sr-top">
+                  <span class="sr-name">C / C++</span>
+                  <span class="sr-badge">Notions acquises</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-fill" style="--w:45%">
+                    <span class="sf-label">45%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-block reveal">
+            <div class="sb-header">
+              <span class="sb-icon">🛠️</span>
+              <h3>Outils &amp; environnement</h3>
+            </div>
+            <div class="skill-list">
+              <div class="skill-row">
+                <div class="sr-top">
+                  <span class="sr-name">Git &amp; GitHub</span>
+                  <span class="sr-badge">Pratique régulière</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-fill" style="--w:55%">
+                    <span class="sf-label">55%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="skill-row">
+                <div class="sr-top">
+                  <span class="sr-name">VS Code</span>
+                  <span class="sr-badge">Quotidien</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-fill" style="--w:75%">
+                    <span class="sf-label">75%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Colonne droite : en apprentissage + concepts -->
+        <div class="skills-col">
+          <div class="skill-block learning-block reveal">
+            <div class="sb-header">
+              <span class="sb-icon">📚</span>
+              <h3>En cours d'apprentissage</h3>
+            </div>
+            <p class="learning-desc">
+              Ces technologies font partie de ma feuille de route actuelle.
+              Je les explore via la documentation officielle, des tutoriels et de la pratique quotidienne.
+            </p>
+            <div class="learning-grid">
+              <div class="lg-item">
+                <span class="lg-icon">⚛️</span>
+                <span class="lg-name">React</span>
+                <span class="lg-status">En cours</span>
+              </div>
+              <div class="lg-item">
+                <span class="lg-icon">🟨</span>
+                <span class="lg-name">JavaScript</span>
+                <span class="lg-status">En cours</span>
+              </div>
+              <div class="lg-item">
+                <span class="lg-icon">🟢</span>
+                <span class="lg-name">Node.js</span>
+                <span class="lg-status">À venir</span>
+              </div>
+              <div class="lg-item">
+                <span class="lg-icon">🗄️</span>
+                <span class="lg-name">SQL</span>
+                <span class="lg-status">À venir</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-block reveal">
+            <div class="sb-header">
+              <span class="sb-icon">🧩</span>
+              <h3>Concepts maîtrisés</h3>
+            </div>
+            <div class="concepts-grid">
+              <span class="concept-tag">POO</span>
+              <span class="concept-tag">Algorithmes de tri</span>
+              <span class="concept-tag">Structures de données</span>
+              <span class="concept-tag">Pointeurs (C)</span>
+              <span class="concept-tag">Héritage &amp; Interfaces</span>
+              <span class="concept-tag">Flexbox / Grid CSS</span>
+              <span class="concept-tag">Responsive design</span>
+              <span class="concept-tag">Gestion de versions</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       PROJETS
+  ══════════════════════════════════════ -->
+  <section id="projets">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Mes réalisations</p>
+        <h2 class="section-title">Exercices <em>&amp; entraînements</em></h2>
+        <p class="section-desc">
+          Pas encore de projets clients — mais des dizaines d'exercices concrets,
+          tous versionnés sur GitHub. C'est ça, la progression réelle.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+
+        <div class="project-card reveal">
+          <div class="pc-top">
+            <div class="pc-lang java">Java</div>
+            <a href="https://github.com/GBEDAGBA" class="pc-github" target="_blank" rel="noopener" title="Voir sur GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            </a>
+          </div>
+          <h3 class="pc-title">Exercices POO en Java</h3>
+          <p class="pc-desc">Série complète sur la programmation orientée objet : classes abstraites, héritage, interfaces, polymorphisme et gestion des exceptions.</p>
+          <div class="pc-footer">
+            <div class="pc-tags">
+              <span class="ptag">Java</span>
+              <span class="ptag">POO</span>
+              <span class="ptag">Héritage</span>
+            </div>
+            <a href="https://github.com/GBEDAGBA" class="pc-link" target="_blank">Voir le code →</a>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="pc-top">
+            <div class="pc-lang clang">C / C++</div>
+            <a href="https://github.com/GBEDAGBA" class="pc-github" target="_blank" rel="noopener" title="Voir sur GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            </a>
+          </div>
+          <h3 class="pc-title">Algorithmes fondamentaux en C</h3>
+          <p class="pc-desc">Implémentation d'algorithmes classiques : tri à bulles, tri rapide, recherche binaire, gestion mémoire avec des pointeurs et structures chainées.</p>
+          <div class="pc-footer">
+            <div class="pc-tags">
+              <span class="ptag">C</span>
+              <span class="ptag">Algorithmes</span>
+              <span class="ptag">Pointeurs</span>
+            </div>
+            <a href="https://github.com/GBEDAGBA" class="pc-link" target="_blank">Voir le code →</a>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="pc-top">
+            <div class="pc-lang web">HTML / CSS</div>
+            <a href="https://github.com/GBEDAGBA" class="pc-github" target="_blank" rel="noopener" title="Voir sur GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            </a>
+          </div>
+          <h3 class="pc-title">Interfaces web statiques</h3>
+          <p class="pc-desc">Exercices de mise en page HTML/CSS : Flexbox, CSS Grid, design responsive et premières animations CSS. Ce portfolio est lui-même un de ces projets.</p>
+          <div class="pc-footer">
+            <div class="pc-tags">
+              <span class="ptag">HTML</span>
+              <span class="ptag">CSS</span>
+              <span class="ptag">Responsive</span>
+            </div>
+            <a href="https://github.com/GBEDAGBA" class="pc-link" target="_blank">Voir le code →</a>
+          </div>
+        </div>
+
+        <div class="project-card wip reveal">
+          <div class="pc-top">
+            <div class="pc-lang soon">🚧 En cours</div>
+          </div>
+          <h3 class="pc-title">Premier projet React</h3>
+          <p class="pc-desc">Ma première application avec React et JavaScript moderne. En cours de développement dans le cadre de mon apprentissage des frameworks frontend.</p>
+          <div class="pc-footer">
+            <div class="pc-tags">
+              <span class="ptag">React</span>
+              <span class="ptag">JavaScript</span>
+            </div>
+            <span class="pc-wip-label">Bientôt disponible</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="projects-cta reveal">
+        <p>Tous mes exercices et expérimentations sont disponibles sur mon profil GitHub.</p>
+        <a href="https://github.com/GBEDAGBA" class="btn-outline-dark" target="_blank" rel="noopener">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+          Voir mon GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       PARCOURS
+  ══════════════════════════════════════ -->
+  <section id="parcours" class="section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Mon histoire</p>
+        <h2 class="section-title">Parcours <em>&amp; objectifs</em></h2>
+      </div>
+
+      <div class="parcours-grid">
+
+        <!-- Timeline -->
+        <div class="timeline-wrapper reveal">
+          <h3 class="sub-title">📅 Formation</h3>
+          <div class="timeline">
+            <div class="tl-item">
+              <div class="tl-left">
+                <div class="tl-dot active"></div>
+                <div class="tl-line"></div>
+              </div>
+              <div class="tl-body">
+                <span class="tl-date">2024 — Aujourd'hui</span>
+                <h4>Apprentissage des frameworks</h4>
+                <p>Découverte de React et JavaScript ES6+. Pratique quotidienne via la documentation officielle, des tutoriels et mes dépôts GitHub.</p>
+              </div>
+            </div>
+            <div class="tl-item">
+              <div class="tl-left">
+                <div class="tl-dot"></div>
+                <div class="tl-line"></div>
+              </div>
+              <div class="tl-body">
+                <span class="tl-date">2023 — 2024</span>
+                <h4>Formation en informatique</h4>
+                <p>Bases solides en C, C++, Java. Algorithmes, structures de données, POO, gestion de la mémoire.</p>
+              </div>
+            </div>
+            <div class="tl-item">
+              <div class="tl-left">
+                <div class="tl-dot"></div>
+              </div>
+              <div class="tl-body">
+                <span class="tl-date">2023</span>
+                <h4>Premiers pas en HTML/CSS</h4>
+                <p>Création de mes premières pages web. Découverte du développement front-end, du responsive design et des animations CSS.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Objectifs -->
+        <div class="objectifs-wrapper reveal">
+          <h3 class="sub-title">🎯 Mes objectifs</h3>
+          <div class="objectifs-list">
+            <div class="obj-item done">
+              <div class="obj-status">✓</div>
+              <div class="obj-text">
+                <strong>Maîtriser les bases HTML/CSS</strong>
+                <span>Flexbox, Grid, responsive design</span>
+              </div>
+            </div>
+            <div class="obj-item done">
+              <div class="obj-status">✓</div>
+              <div class="obj-text">
+                <strong>Apprendre la POO avec Java</strong>
+                <span>Classes, héritage, interfaces</span>
+              </div>
+            </div>
+            <div class="obj-item active">
+              <div class="obj-status">→</div>
+              <div class="obj-text">
+                <strong>Apprendre React &amp; JavaScript</strong>
+                <span>En cours · Pratique régulière</span>
+              </div>
+            </div>
+            <div class="obj-item">
+              <div class="obj-status">○</div>
+              <div class="obj-text">
+                <strong>Créer mon premier projet complet</strong>
+                <span>Frontend + Backend + Déploiement</span>
+              </div>
+            </div>
+            <div class="obj-item">
+              <div class="obj-status">○</div>
+              <div class="obj-text">
+                <strong>Décrocher un stage / alternance</strong>
+                <span>Pour mettre en pratique et progresser</span>
+              </div>
+            </div>
+            <div class="obj-item">
+              <div class="obj-status">○</div>
+              <div class="obj-text">
+                <strong>Devenir développeuse full-stack</strong>
+                <span>L'objectif final 🚀</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       CONTACT
+  ══════════════════════════════════════ -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-wrapper">
+
+        <div class="contact-left reveal">
+          <p class="section-label">Me contacter</p>
+          <h2 class="section-title">Travaillons <em>ensemble</em></h2>
+          <p class="contact-intro">
+            Vous êtes recruteur, développeur expérimenté ou mentor ?
+            Je suis ouverte à toute opportunité : stage, alternance, ou simplement
+            un café virtuel pour échanger des conseils. Écrivez-moi !
+          </p>
+
+          <div class="contact-cards">
+            <a href="mailto:Christiane @exemple.com" class="cc">
+              <div class="cc-icon-wrap">✉️</div>
+              <div class="cc-info">
+                <strong>Email</strong>
+                <span>gbedotoclo52@gmail.com</span>
+              </div>
+              <svg class="cc-arrow" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a href="https://github.com/GBEDAGBA" class="cc" target="_blank" rel="noopener">
+              <div class="cc-icon-wrap">🐙</div>
+              <div class="cc-info">
+                <strong>GitHub</strong>
+                <span>@GBEDAGBA</span>
+              </div>
+              <svg class="cc-arrow" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/christiane-gb%C3%A8dotoclo-gbedagba-305aa2391/" class="cc" target="_blank" rel="noopener">
+              <div class="cc-icon-wrap">💼</div>
+              <div class="cc-info">
+                <strong>LinkedIn</strong>
+                <span>Christiane GBEDAGBA</span>
+              </div>
+              <svg class="cc-arrow" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-right reveal">
+          <form class="contact-form" onsubmit="handleSubmit(event)">
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label">Nom complet</label>
+                <input type="text" class="form-input" placeholder="Jean Dupont" required />
+              </div>
+              <div class="form-group">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-input" placeholder="vous@exemple.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Sujet</label>
+              <input type="text" class="form-input" placeholder="Proposition de stage, question, conseil..." />
+            </div>
+            <div class="form-group">
+              <label class="form-label">Message</label>
+              <textarea class="form-textarea" placeholder="Bonjour Christiane , je vous contacte pour..." required></textarea>
+            </div>
+            <button type="submit" class="btn-submit">
+              Envoyer le message
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════ -->
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <a href="#hero" class="nav-logo">C<span>.</span>GBEDAGBA</a>
+        <p>Développeuse junior en apprentissage · Ouverte aux opportunités</p>
+      </div>
+      <div class="footer-links">
+        <a href="#apropos">À propos</a>
+        <a href="#competences">Compétences</a>
+        <a href="#projets">Projets</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <p class="footer-copy">© 2025 Christiane GBEDAGBA · Fait avec ❤️ et beaucoup de café ☕</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

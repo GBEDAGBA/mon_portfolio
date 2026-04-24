@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "nom": "Jon",
+    "email": "gbedagbachristianegbedotoclo@gmail.com",
+    "message": "verification de l'envoi des messages",
+    "statut": "non_lu",
+    "date_envoi": "24/04/2026 10:23:27"
+  },
+  {
+    "id": 2,
+    "nom": "Jon",
+    "email": "gbedagbachristiane@gmail.com",
+    "message": "Bonjouration",
+    "statut": "non_lu",
+    "date_envoi": "24/04/2026 10:25:08"
+  },
+  {
+    "id": 3,
+    "nom": "hjkz",
+    "email": "gbedagbachristianegbedotoclo@gmail.com",
+    "message": "qbuisb shkcgsc hjhd zhkdkds skfhseof feuhsebn",
+    "statut": "non_lu",
+    "date_envoi": "24/04/2026 10:27:29"
+  },
+  {
+    "id": 4,
+    "nom": "jon",
+    "email": "gbedagbachristianegbedotoclo@gmail.com",
+    "message": "sjhd uhef jkdfhk kdhf dkufh nch",
+    "statut": "non_lu",
+    "date_envoi": "24/04/2026 10:43:10"
+  },
+  {
+    "id": 5,
+    "nom": "jjhjhjhjh",
+    "email": "gbedagbachristianegbedotoclo@gmail.com",
+    "message": "vcyvg tgigi g b ig ho",
+    "statut": "non_lu",
+    "date_envoi": "24/04/2026 10:53:46"
+  },
+  {
+    "id": 6,
+    "nom": "jhfjh",
+    "email": "gbedagbachristianegbedotoclo@gmail.com",
+    "message": "yjzgf djegf fujefg",
+    "statut": "non_lu",
+    "date_envoi": "24/04/2026 11:17:18"
+  },
+  {
+    "id": 7,
+    "nom": "CHRIS",
+    "email": "gbedagbachristianegbedotoclo@gmail.com",
+    "message": "juste un test",
+    "statut": "non_lu",
+    "date_envoi": "24/04/2026 11:36:35"
+  },
+  {
+    "id": 8,
+    "nom": "Jon",
+    "email": "gbedagbachristianegbedotoclo@gmail.com",
+    "message": "qzjfzqsejfbns fjefgbzn diaz, fn fjegrhbflq dqkgjyebs uhsb",
+    "statut": "non_lu",
+    "date_envoi": "24/04/2026 12:30:57"
+  },
+  {
+    "id": 9,
+    "nom": "htd",
+    "email": "gbedagbachristianegbedotoclo@gmail.com",
+    "message": "liuytgfghjnbjkhguilojkh",
+    "statut": "non_lu",
+    "date_envoi": "24/04/2026 12:36:53"
+  },
+  {
+    "id": 10,
+    "nom": "sjkl",
+    "email": "gbedagbachristianegbedotoclo@gmail.com",
+    "message": "liuytrfdfghb tj",
+    "statut": "non_lu",
+    "date_envoi": "24/04/2026 12:38:50"
+  },
+  {
+    "id": 11,
+    "nom": "sjkzbnjh",
+    "email": "gbedagbachristianegbedotoclo@gmail.com",
+    "message": "jnsxjklk ouiyut-èy_çu otrytdfyujk rydtfc",
+    "statut": "non_lu",
+    "date_envoi": "24/04/2026 13:09:41"
+  }
+]
